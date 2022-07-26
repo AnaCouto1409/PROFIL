@@ -1,0 +1,56 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+header{
+    padding: 0.4rem;
+    background-color: lightcoral;
+}
+ul{
+    display: inline-flex;
+    list-style: none;
+    gap: green;
+    padding: 0.8rem;
+    align-items: center;
+}
+aside, main{
+    border:1px solid ;
+    height: flex; 
+}
+img{
+    width: 100%;
+    height: auto;
+
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    justify-content: center;
+
+}
+button{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: flex;
+}
+button img{
+    width: 2rem;
+    height: 2rem;
+}
+footer{
+    margin-left: 5px;
+    color: #cccc;
+    height: 1rem;
+    flex: 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-top: 1.5px solid #ecf2f6;
+    margin-top: 4em;
+    padding: 0 0;
+    font-size: 90%;
+}
